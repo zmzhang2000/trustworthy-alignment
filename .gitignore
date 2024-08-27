@@ -7,6 +7,7 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+.idea
 .Python
 build/
 develop-eggs/
@@ -127,3 +128,24 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# tensorboard logs
+*tensorboard*
+
+# outputs
+output*
+
+# data files
+*.pdf
+*.json
+*.jsonl
+*.jsonl.gz
+data/preprocess/nq/models
+data/preprocess/nq/wikidata
+data/preprocess/nq/datasets
+
+# notebook files
+*.ipynb
+
+# vscode files
+.vscode
