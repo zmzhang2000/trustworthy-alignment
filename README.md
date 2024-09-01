@@ -50,7 +50,7 @@ You can also preprocess the data by yourself following instructions in `data/nq`
 
 ### Model
 
-Request access and download the `Llama-2-7b-chat` model from [here](https://llama.meta.com/llama2/). Then put the model under the `ckpt/huggingface/meta-llama` folder.
+Request access to `meta-llama/Llama-2-7b-chat-hf` on [HuggingFace](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf). You can also train on other models by changing the `ACTOR_MODEL_PATH` in `training/run_llama2_7b_lora.sh`.
 
 ## Training
 To train the model, you can run the following command:

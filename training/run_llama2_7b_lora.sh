@@ -1,4 +1,4 @@
-ACTOR_MODEL_PATH=ckpt/huggingface/meta-llama/Llama-2-7b-chat-hf/
+ACTOR_MODEL_PATH=meta-llama/Llama-2-7b-chat-hf
 CRITIC_MODEL_PATH=AdamG012/chat-opt-350m-reward-deepspeed
 ACTOR_ZERO_STAGE=$3
 CRITIC_ZERO_STAGE=$4
