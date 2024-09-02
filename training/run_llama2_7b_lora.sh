@@ -19,7 +19,6 @@ Critic_Lr=5e-6
 
 deepspeed --master_port 13680 --include "localhost:0,1,2,3,4,5,6,7" main.py \
    --data_path ../data/MRQANaturalQuestionsSPLIT-closedbookfiltered-corpus-counterfactual.json \
-   --data_output_path /tmp/zhangzm_data_files \
    --data_split 0,0,1 \
    --actor_model_name_or_path $ACTOR_MODEL_PATH \
    --critic_model_name_or_path $CRITIC_MODEL_PATH \
